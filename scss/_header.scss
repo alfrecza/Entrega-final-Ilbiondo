@@ -1,0 +1,6 @@
+nav {
+    background-color: map-get($colores-lisos, colorPrincipal );
+    .btnNav{
+        background-color: map-get($colores-lisos, colorLight);
+    }
+}

@@ -1,0 +1,43 @@
+main {
+
+    .bg-color-gradient {
+        background-image: map-get($colores-gradient, color-gradient1 );
+    }
+
+    .carousel{
+
+        .carousel-item img {
+            width: 100%;
+        }
+    }
+
+    .text__home{
+
+        .border__title {
+            border: 2px solid rgb(111, 75, 43) !important;
+            border-radius: 0 10px 10px 0 !important;
+        }
+
+    }
+
+    .bg-color-principal {
+        background-color: map-get($colores-lisos , colorPrincipal);
+    }
+
+    .main__ubicacion {
+        background-image: url(../assets/img/wave__ubicacion.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        width: 100%;
+        padding: 3rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+
